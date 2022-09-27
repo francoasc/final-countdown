@@ -24,8 +24,7 @@
     "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx --quiet",
     "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "lint-staged": "lint-staged --config lint-staged.js",
-    "husky-install": "husky install"
+    "lint-staged": "lint-staged --config lint-staged.js"
   },
   "eslintConfig": {
     "extends": [
